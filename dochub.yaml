@@ -1,0 +1,26 @@
+$package:
+  # Идентификатор пакета
+  seaf.1c.example: 
+    # Краткое название пакета
+    name: SEAF.1C Example
+    # Поставщик
+    vendor: Aleksandr Kapralov
+    # Описание
+    description: Пример описания 1C архитектуры с использованием специализированного фреймворка SEAF.1C основанного на SEAF.
+    # Версия
+    version: 1.0.0
+    # Зависимости от других пакетов
+    dependencies:
+      seaf-core: ">=1.2.6"
+      dochub: ">=3.11.0"
+
+docs:
+  dochub.welcome:
+    title: SEAF.1C Example
+    type: markdown
+    location: SEAF.1C
+    source: README.md
+
+imports:
+  # Библиотеки
+  - _metamodel_/packages.yaml
