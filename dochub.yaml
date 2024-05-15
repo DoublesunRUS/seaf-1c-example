@@ -1,6 +1,6 @@
 $package:
   # Идентификатор пакета
-  seaf.1c.example: 
+  seaf-1c-example:
     # Краткое название пакета
     name: SEAF.1C Example
     # Поставщик
@@ -11,16 +11,16 @@ $package:
     version: 1.0.0
     # Зависимости от других пакетов
     dependencies:
-      seaf-core: ">=1.2.6"
       dochub: ">=3.11.0"
+      seaf-core: ">=1.2.6"
+      seaf-1c-core: ">=1.0.0"
 
 docs:
   dochub.welcome:
     title: SEAF.1C Example
     type: markdown
-    location: SEAF.1C
+    location: SEAF.1C/Примеры
     source: README.md
 
 imports:
-  # Библиотеки
   - _metamodel_/packages.yaml
