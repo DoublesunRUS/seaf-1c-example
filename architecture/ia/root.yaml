@@ -1,0 +1,6 @@
+imports:
+  - base/root.yaml
+  - components.yaml
+  - data_objects.yaml
+  - aspects.yaml
+  - contexts.yaml

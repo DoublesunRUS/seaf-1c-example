@@ -23,4 +23,8 @@ docs:
     source: README.md
 
 imports:
+  # Библиотеки
   - _metamodel_/packages.yaml
+
+  # Архитектура
+  - architecture/root.yaml

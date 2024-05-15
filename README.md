@@ -1,5 +1,8 @@
 # SEAF.1C Example
 
+Пример описания корпоративной архитектуры с использованием специализированного
+фреймворка [SEAF.1C](https://github.com/DoublesunRUS/seaf-1c-core) основанного на [SEAF](https://github.com/SEAFTeam/seaf-core).
+
 ## Развертывание
 
 1. Установите DocHub используя [инструкцию](https://github.com/RabotaRu/DocHub#быстрый-старт).
